@@ -1,4 +1,4 @@
-package com.example.midiariodelecturas;
+package com.example.bookdiary;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         btnReadingGoal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ReadingGoalActivity.class);
+                Intent intent = new Intent(MainActivity.this, com.example.bookdiary.ReadingGoalActivity.class);
                 startActivity(intent);
             }
         });

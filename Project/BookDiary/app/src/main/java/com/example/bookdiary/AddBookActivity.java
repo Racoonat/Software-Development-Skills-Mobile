@@ -1,4 +1,4 @@
-package com.example.midiariodelecturas;
+package com.example.bookdiary;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
@@ -42,7 +42,7 @@ public class AddBookActivity extends AppCompatActivity {
             String date = (selectedDate != null) ? selectedDate.toString() : "Fecha no especificada";
 
             // Crear un nuevo libro con la fecha seleccionada
-            Book newBook = new Book(title, author, selectedDate);
+            com.example.bookdiary.Book newBook = new com.example.bookdiary.Book(title, author, selectedDate);
 
             // Pasar el libro al MainActivity
             Intent resultIntent = new Intent();

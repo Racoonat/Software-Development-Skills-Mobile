@@ -1,4 +1,4 @@
-package com.example.midiariodelecturas;
+package com.example.bookdiary;
 
 
 import android.os.Bundle;
